@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Product Lokal</string>
+    <string name="product_image">Product Image</string>
+    <string name="title">Title</string>
+    <string name="description">Description :</string>
+    <string name="price">Price :</string>
+    <string name="discount">Discount :</string>
+    <string name="rating">Rating :</string>
+    <string name="brand">Brand :</string>
+    <string name="category">Category :</string>
+    <string name="stock">Stock :</string>
+    <string name="product_app">Product App</string>
+    <string name="item_title">Title</string>
+    <string name="item_price">Price :</string>
+    <string name="item_rating">Rating :</string>
+    <string name="item_missingconstraints">MissingConstraints</string>
+</resources>

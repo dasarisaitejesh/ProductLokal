@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:context=".InsideActivity">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            app:iss_auto_cycle="true"
+            app:iss_corner_radius="5"
+            app:iss_delay="0"
+            app:iss_error_image="@drawable/no_image"
+            app:iss_period="1000"
+            app:iss_placeholder="@drawable/no_image"
+            app:iss_selected_dot="@drawable/default_selected_dot"
+            app:iss_unselected_dot="@drawable/default_unselected_dot"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/inside_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="@color/textcolor"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inside_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/description"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/inside_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/price"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/inside_discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/discount"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/inside_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/rating"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/inside_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/brand"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/inside_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/category"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/inside_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/stock"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
